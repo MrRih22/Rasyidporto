@@ -19,7 +19,9 @@
         <!-- Page Title -->
         <title>Portofolio | Rasyid Ihtizzamul Hidayat</title>
         
-        <link href="https://files.ituaku.com/assets/websites/vendor/fontawesome7/css/all.css" rel="stylesheet">
+        <!-- MENGGUNAKAN CDN FONT AWESOME GLOBAL AGAR ICON MUNCUL SEMPURNA -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        
         <link href="https://files.ituaku.com/assets/websites/themes/38a5f809/vendor/css/bundle.min.css" rel="stylesheet">
         <link href="https://files.ituaku.com/assets/websites/themes/7d9d441d//css/line-awesome.min.css" rel="stylesheet">
         <link href="https://files.ituaku.com/assets/websites/vendor/fancybox6/fancybox/fancybox.css" rel="stylesheet">
@@ -75,7 +77,7 @@
                 .banner-section {
                     height: 100vh !important;
                     min-height: 650px;
-                    background-position: center 20% !important; 
+                    background-position: center 40% !important; 
                 }
                 .banner-section .container {
                     height: 100%;
@@ -552,7 +554,7 @@
             .brand-sec .sponser-tags { border-top: dashed 1px #e1e1e1; padding-top: 60px; }
             .brand-sec { padding-top: 0px; padding-bottom: 60px; }
             .brand-img { height: 80px !important; }
-            .brand-img img { max-height: 55px; width: auto !important; margin: 0 auto ; transition: all 0.3s ease; opacity: 0.7; }
+            .brand-img img { max-height: 55px; width: auto !important; margin: 0 auto; filter: grayscale(100%); transition: all 0.3s ease; opacity: 0.7; }
             .brand-img:hover img { filter: grayscale(0%); opacity: 1; transform: scale(1.1); }
             
             @media (max-width: 767px) {
@@ -717,7 +719,7 @@
                     <div class="col-lg-3 col-md-12 col-sm-12 column">
                         <div class="media wow fadeInDown" data-wow-delay="300ms">
                             <div class="media-body">
-                                <p>&copy; <a href="https://s.ituaku.com/back-home" class="text-black">Bersama.id</a> <script>document.write(new Date().getFullYear())</script> | All Rights Reserved</p>
+                                <p>&copy; Bersama.id <script>document.write(new Date().getFullYear())</script> | All Rights Reserved</p>
                             </div>
                         </div>
                     </div>
