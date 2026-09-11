@@ -6,8 +6,8 @@
         <meta property="og:title" content="Rasyid Ihtizzamul Hidayat - Information Systems, Admin & Operations Professional"/>
         <meta property="og:description" content="Information Systems student and Operations/Admin Professional experienced in data management, production workflows, and web administration."/>
         <meta property="og:type" content="website"/>
-        <meta property="og:url" content="https://azzamporto.ituaku.com/index.html"/>
-        <meta property="og:image" content="https://i.ibb.co.com/KxG4cyYz/Gemini-Generated-Image-u2za3vu2za3vu2za.jpg"/>
+        <meta property="og:url" content="https://rasyidihtizzamulhidayatportofolio.netlify.app/"/>
+        <meta property="og:image" content="https://i.ibb.co.com/27j72f76/merahpng.png"/>
         <meta property="og:site_name" content="Rasyid Ihtizzamul Hidayat">
         <!-- Meta Tags -->
         <meta charset="UTF-8">
@@ -64,6 +64,7 @@
                 background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('https://i.ibb.co.com/9H24WTfh/Whats-App-Image-2026-07-23-at-20-07-38.jpg'); 
                 background-size: cover !important; 
                 background-repeat: no-repeat !important;
+                position: relative; 
             }
 
             /* =======================================================
@@ -114,18 +115,15 @@
             }
 
             /* =======================================================
-               RESPONSIVE LAYOUT (MOBILE, iPHONE, FOLDABLES, TABLET) 
+               RESPONSIVE LAYOUT (MOBILE, iPHONE, TABLET) 
             ======================================================= */
             @media (max-width: 991px) {
-                /* Perkecil padding berlebih di mobile agar nyaman discroll */
                 .pt100 { padding-top: 60px !important; }
                 .pb80 { padding-bottom: 50px !important; }
                 .section_works { padding-top: 60px !important; }
                 .contact-sec { padding-top: 60px !important; padding-bottom: 60px !important; }
-                
                 .social-icons { display: none !important; }
                 
-                /* Banner menyesuaikan tinggi layar HP */
                 .banner-section {
                     min-height: 100vh; 
                     padding-top: 100px; 
@@ -133,12 +131,11 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    background-position: center top !important; /* Fokus ke wajah */
+                    background-position: center top !important; 
                 }
-                /* Mengubah kotak merah memanjang menjadi Card di tengah */
                 .banner-section .rectangle {
                     position: relative !important;
-                    width: 92% !important; /* Tidak terlalu mepet layar */
+                    width: 90% !important; 
                     max-width: 450px;
                     margin: 0 auto;
                     left: 0;
@@ -146,8 +143,9 @@
                     height: auto !important;
                     padding: 35px 25px !important;
                     background-color: rgba(166, 3, 23, 0.95);
-                    border-radius: 15px; /* Menambah kesan elegan/profesional */
+                    border-radius: 15px; 
                     box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+                    z-index: 2; 
                 }
                 .banner-section .rectangle .text {
                     padding: 0 !important;
@@ -155,7 +153,7 @@
                     text-align: left;
                 }
                 .banner-section .rectangle .text h2 {
-                    font-size: 34px !important; /* Huruf diperkecil untuk HP */
+                    font-size: 34px !important; 
                     line-height: 1.2 !important;
                     margin: 15px 0 !important;
                 }
@@ -164,18 +162,17 @@
                     padding-right: 0 !important;
                     line-height: 1.6;
                 }
-                
-                /* Layout About Image untuk Mobile */
                 .about-section .img-section {
                     margin-top: 30px;
                     text-align: center;
                 }
+                .brand-img img { max-height: 45px !important; }
             }
 
             /* --- STYLING GAMBAR ABOUT --- */
             .about-section .img-section img {
                 width: 100%;
-                max-width: 450px; /* Maksimal lebar agar tidak raksasa di tablet */
+                max-width: 450px; 
                 height: auto;
                 max-height: 550px; 
                 object-fit: cover; 
@@ -184,18 +181,6 @@
                 box-shadow: 0 10px 30px rgba(0,0,0,0.15); 
                 display: block;
                 margin: 0 auto;
-            }
-            
-            /* --- KUNCI UKURAN TOMBOL KONTAK (PRESISI SEMUA DEVICE) --- */
-            .contact_btn {
-                width: 100% !important;
-                max-width: 250px !important; /* Mengunci lebar maks */
-                display: flex !important;
-                justify-content: center;
-                align-items: center;
-                margin: 15px auto !important; /* Di tengah untuk layar kecil/besar */
-                box-sizing: border-box;
-                border-radius: 8px !important; /* Tampilan modern */
             }
         </style>
     </head>
@@ -230,7 +215,7 @@
             <div class="side-menu hidden">
                 <div class="inner-wrapper">
                     <div class="sidemenu-image">
-                        <a href="https://s.ituaku.com/back-home">
+                        <a href="https://rasyidihtizzamulhidayatportofolio.netlify.app/">
                             <img src="https://i.ibb.co.com/27j72f76/merahpng.png" alt="Logo ituaku.com">
                         </a>
                     </div>
@@ -252,7 +237,7 @@
                                 <li><a href="https://wa.me/6283892716161" class="hover"><i class="fa-brands fa-whatsapp"></i></a></li>
                             </ul>
                         </div>
-                        <p class="text-white">&copy; <a href="https://s.ituaku.com/back-home" class="text-white">Ituaku.com</a> <script>document.write(new Date().getFullYear())</script> | All Rights Reserved</p>
+                        <p class="text-white">&copy; <a href="https://rasyidihtizzamulhidayatportofolio.netlify.app/" class="text-white">Ituaku.com</a> <script>document.write(new Date().getFullYear())</script> | All Rights Reserved</p>
                     </div>
                 </div>
             </div>
@@ -283,6 +268,10 @@
         </section>
 
         <!-- ABOUT SECTION -->
+        <style>
+            .about-section .text-section span{ display: block; }
+            .about-section .text-section b{ color: #a60317; }
+        </style>
         <section class="about-section as-section" id="section_about">
             <div class="container">
                 <div class="row no-gutters">
@@ -324,7 +313,7 @@
             <div class="container">
                 <div class="row no-gutters">
                     <div class="col-lg-12 col-md-12 col-sm-12 wow fadeInDown" data-wow-delay="300ms">
-                        <h2 class="heading font mb40 text-center">Core Expertise</h2>
+                        <h2 class="heading font mb40 text-center text-lg-left">Core Expertise</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -565,6 +554,10 @@
             .brand-img { height: 80px !important; }
             .brand-img img { max-height: 55px; width: auto !important; margin: 0 auto; filter: grayscale(100%); transition: all 0.3s ease; opacity: 0.7; }
             .brand-img:hover img { filter: grayscale(0%); opacity: 1; transform: scale(1.1); }
+            
+            @media (max-width: 767px) {
+                .brand-img img { max-height: 40px !important; }
+            }
         </style>
         <div class="brand-sec" id="brand-sec">
             <div class="container">
@@ -602,6 +595,78 @@
         </div>
 
         <!-- CONTACT SECTION -->
+        <style>
+            /* ===================================
+                Contact Us
+            ====================================== */
+            .contact-sec .contact-details{ padding-top: 50px; padding-bottom: 50px; }
+            .contact-sec .contact-form-box{ box-shadow: 1px 1px 15px #f1f1f0cf; border-radius: 10px; padding: 30px; }
+            .contact-sec .contact-details .contact-heading{ color: #000000; font-size: 40px; font-weight: 300; margin-bottom: 20px; line-height: 1.2; }
+            .contact-sec .contact-details .contact-address{ font-size: 16px; color: #000000; opacity: .8; font-family: 'Roboto', sans-serif; font-weight: 300; margin-bottom: 20px; }
+            .contact-sec .contact-details .contact-list{ padding-left: 0; }
+            .contact-sec .contact-details .contact-list li{ font-family: 'Roboto', sans-serif; font-weight: 300; list-style: none; color: #000000; font-size: 16px; opacity: .8; }
+            .contact-sec .contact-details .contact-list li:nth-child(even){ margin-bottom: 20px; }
+            .contact-sec .contact-details .contact-list li:last-child{ margin-bottom: 50px; }
+            .contact-sec .contact-details .contact-s-media{ padding-left: 0; margin-bottom: 0; right: auto; left: -10px; }
+            .contact-sec .contact-details .contact-s-media li { list-style: none; margin-right: 10px; display: inline-block; }
+            .contact-sec .contact-details .contact-s-media li:last-child { margin-right: 0; }
+            .contact-sec .contact-details .contact-s-media li a{ height: 30px; width: 30px; display: flex; justify-content: center; text-align: center; align-items: center; padding-top: 2px; transition: .8s ease; }
+            .contact-sec .contact-details .contact-s-media li:hover a{ border-radius: 50%; color: #FFFFFF; background-color: #a60317; }
+            .contact-sec .contact-details .contact-s-media li a i{ font-size: 18px; color: #000000; }
+            .contact-sec .contact-details .contact-s-media li:hover a i{ color: #000000; }
+            .contact-sec .contact-details .page-footer{ left: calc(50% - 125px); }
+            .contact-sec{ padding-bottom: 120px; padding-top: 80px; }
+            .red-and-white-slider-btn{font-size: 14px;font-family: Roboto, sans-serif;letter-spacing:3px;padding: 10px 25px;color:#ffffff;font-weight: 500;background-color:#a60317;border:1px solid transparent;border-radius: 0px;-webkit-transition: .8s ease !important;-o-transition: .8s ease !important;transition: .8s ease !important;}
+            .red-and-white-slider-btn:hover{ color:#ffffff !important;background-color:#000000 !important; }
+            
+            /* KUNCI: Menghapus posisi lengket bawaan agar tidak saling numpuk */
+            .contact-details .btn {
+                -webkit-appearance: initial; 
+                overflow: hidden;
+                position: relative !important; /* FIXED */
+                z-index: 2; 
+                display:inline-block; 
+                font-size: 17px; 
+                border:2px solid transparent; 
+                letter-spacing: .5px; 
+                line-height: inherit; 
+                border-radius: 0; 
+                text-transform:capitalize;
+                font-family: 'Poppins', sans-serif; 
+                font-weight: 500; 
+                -webkit-transition: all .5s ease;
+                -o-transition: all .5s ease !important;
+                transition: all .5s ease !important;
+            }
+            .btn.btn-large { font-size: 14px; padding: 9px 34px; line-height: 1.8em; }
+            
+            /* WRAPPER BARU AGAR TOMBOL TERSUSUN RAPI */
+            .contact-btn-wrapper {
+                display: flex;
+                flex-direction: column;
+                align-items: center; /* Tombol ke tengah */
+                gap: 15px; /* Jarak antar tombol */
+                margin-top: 20px;
+            }
+            
+            @media (min-width: 992px) {
+                .contact-btn-wrapper {
+                    align-items: flex-start; /* Tombol rata kiri kalau di PC */
+                }
+            }
+            
+            /* CLASS TOMBOL SERAGAM */
+            .contact_btn {
+                width: 100% !important;
+                max-width: 250px !important; 
+                display: flex !important;
+                justify-content: center;
+                align-items: center;
+                margin: 0 !important; /* Margin diurus oleh wrapper (gap) */
+                box-sizing: border-box;
+                border-radius: 8px !important; 
+            }
+        </style>
         <section id="section_contact" class="contact-sec section_contact">
             <div class="container">
                 <div class="row">
@@ -621,8 +686,11 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 contact-details">
-                        <a href="https://wa.me/6283892716161" class="btn btn-large red-and-white-slider-btn contact_btn"><i aria-hidden="true" class="fa-brands fa-whatsapp mr-2"></i> <b> Contact Now</b></a>
-                        <a href="mailto:rasyidhida22@gmail.com" class="btn btn-large red-and-white-slider-btn contact_btn"><i aria-hidden="true" class="fa-solid fa-envelope mr-2"></i> <b> Send Email</b></a>
+                        <!-- Wrapper flexbox agar susunannya stabil ke bawah -->
+                        <div class="contact-btn-wrapper">
+                            <a href="https://wa.me/6283892716161" class="btn btn-large red-and-white-slider-btn contact_btn"><i aria-hidden="true" class="fa-brands fa-whatsapp mr-2"></i> <b> Contact Now</b></a>
+                            <a href="mailto:rasyidhida22@gmail.com" class="btn btn-large red-and-white-slider-btn contact_btn"><i aria-hidden="true" class="fa-solid fa-envelope mr-2"></i> <b> Send Email</b></a>
+                        </div>
                     </div>
                 </div>
             </div>
