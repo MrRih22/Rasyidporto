@@ -195,7 +195,7 @@
         <!-- NAVBAR -->
         <header class="navigation-bar">
             <nav class="navbar navbar-expand-lg fixed-top navbar-fixed-top">
-                <a href="https://s.ituaku.com/back-home" title="Website ituaku.com" class="logo navbar-brand">
+                <a href="https://rasyidihtizzamulhidayatportofolio.netlify.app/" title="Website ituaku.com" class="logo navbar-brand">
                     <img src="https://i.ibb.co.com/27j72f76/merahpng.png" alt="Logo ituaku.com" class="logo-dark">
                 </a>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -552,7 +552,7 @@
             .brand-sec .sponser-tags { border-top: dashed 1px #e1e1e1; padding-top: 60px; }
             .brand-sec { padding-top: 0px; padding-bottom: 60px; }
             .brand-img { height: 80px !important; }
-            .brand-img img { max-height: 55px; width: auto !important; margin: 0 auto; filter: grayscale(100%); transition: all 0.3s ease; opacity: 0.7; }
+            .brand-img img { max-height: 55px; width: auto !important; margin: 0 auto ; transition: all 0.3s ease; opacity: 0.7; }
             .brand-img:hover img { filter: grayscale(0%); opacity: 1; transform: scale(1.1); }
             
             @media (max-width: 767px) {
@@ -619,11 +619,10 @@
             .red-and-white-slider-btn{font-size: 14px;font-family: Roboto, sans-serif;letter-spacing:3px;padding: 10px 25px;color:#ffffff;font-weight: 500;background-color:#a60317;border:1px solid transparent;border-radius: 0px;-webkit-transition: .8s ease !important;-o-transition: .8s ease !important;transition: .8s ease !important;}
             .red-and-white-slider-btn:hover{ color:#ffffff !important;background-color:#000000 !important; }
             
-            /* KUNCI: Menghapus posisi lengket bawaan agar tidak saling numpuk */
             .contact-details .btn {
                 -webkit-appearance: initial; 
                 overflow: hidden;
-                position: relative !important; /* FIXED */
+                position: relative !important; 
                 z-index: 2; 
                 display:inline-block; 
                 font-size: 17px; 
@@ -640,29 +639,27 @@
             }
             .btn.btn-large { font-size: 14px; padding: 9px 34px; line-height: 1.8em; }
             
-            /* WRAPPER BARU AGAR TOMBOL TERSUSUN RAPI */
             .contact-btn-wrapper {
                 display: flex;
                 flex-direction: column;
-                align-items: center; /* Tombol ke tengah */
-                gap: 15px; /* Jarak antar tombol */
+                align-items: center; 
+                gap: 15px; 
                 margin-top: 20px;
             }
             
             @media (min-width: 992px) {
                 .contact-btn-wrapper {
-                    align-items: flex-start; /* Tombol rata kiri kalau di PC */
+                    align-items: flex-start; 
                 }
             }
             
-            /* CLASS TOMBOL SERAGAM */
             .contact_btn {
                 width: 100% !important;
                 max-width: 250px !important; 
                 display: flex !important;
                 justify-content: center;
                 align-items: center;
-                margin: 0 !important; /* Margin diurus oleh wrapper (gap) */
+                margin: 0 !important; 
                 box-sizing: border-box;
                 border-radius: 8px !important; 
             }
@@ -686,7 +683,6 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 contact-details">
-                        <!-- Wrapper flexbox agar susunannya stabil ke bawah -->
                         <div class="contact-btn-wrapper">
                             <a href="https://wa.me/6283892716161" class="btn btn-large red-and-white-slider-btn contact_btn"><i aria-hidden="true" class="fa-brands fa-whatsapp mr-2"></i> <b> Contact Now</b></a>
                             <a href="mailto:rasyidhida22@gmail.com" class="btn btn-large red-and-white-slider-btn contact_btn"><i aria-hidden="true" class="fa-solid fa-envelope mr-2"></i> <b> Send Email</b></a>
@@ -696,26 +692,32 @@
             </div>
         </section>
 
-        <!-- FOOTER -->
-        <section class="contact-section" id="contact" style="background: #fff; border-top: 1px solid #eee;">
+        <!-- FOOTER (PENGEMBALIAN STRUKTUR ASLI TEMPLATE 4 KOLOM) -->
+        <section class="contact-section" id="contact">
             <div class="container">
-                <div class="row copyright-section py-4">
-                    <div class="col-lg-4 col-md-12 col-sm-12 column text-center text-lg-left mb-3 mb-lg-0">
-                        <div class="media wow fadeInUp justify-content-center justify-content-lg-start" data-wow-delay="300ms">
+                <div class="row copyright-section">
+                    <div class="col-lg-3 col-md-12 col-sm-12 column">
+                        <div class="media wow fadeInUp" data-wow-delay="300ms">
                             <i class="far fa-paper-plane mr-2 text-red mt-1"></i>
-                            <div class="media-body"><p class="mb-0 text-black">rasyidhida22@gmail.com</p></div>
+                            <div class="media-body"><p>rasyidhida22@gmail.com</p></div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12 column text-center text-lg-left mb-3 mb-lg-0">
-                        <div class="media wow fadeInDown justify-content-center justify-content-lg-start" data-wow-delay="300ms">
+                    <div class="col-lg-3 col-md-12 col-sm-12 column">
+                        <div class="media wow fadeInDown" data-wow-delay="300ms">
                             <i class="fa-brands fa-whatsapp mr-2 text-red mt-1"></i>
-                            <div class="media-body"><p class="mb-0"><a href="https://wa.me/6283892716161" class="text-black">0838-9271-6161</a></p></div>
+                            <div class="media-body"><p><a href="https://wa.me/6283892716161" class="text-black">0838-9271-6161</a></p></div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12 column text-center text-lg-right">
-                        <div class="media wow fadeInDown justify-content-center justify-content-lg-end" data-wow-delay="300ms">
+                    <div class="col-lg-3 col-md-12 col-sm-12 column">
+                        <div class="media wow fadeInUp" data-wow-delay="300ms">
+                            <i class="fa-solid fa-location-dot mr-2 text-red mt-1"></i>
+                            <div class="media-body"><p>Cikarang, Kab. Bekasi, Jawa Barat</p></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12 col-sm-12 column">
+                        <div class="media wow fadeInDown" data-wow-delay="300ms">
                             <div class="media-body">
-                                <p class="mb-0 text-black">&copy; <script>document.write(new Date().getFullYear())</script> Rasyid Ihtizzamul H.</p>
+                                <p>&copy; <a href="https://s.ituaku.com/back-home" class="text-black">Bersama.id</a> <script>document.write(new Date().getFullYear())</script> | All Rights Reserved</p>
                             </div>
                         </div>
                     </div>
